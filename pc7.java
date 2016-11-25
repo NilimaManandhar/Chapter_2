@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package chapterone;
+
+/**
+ *
+ * @author Nilima M
+ * 7. Land Calculation
+One acre of land is equivalent to 43,560 square feet. Write a program that calculates the
+number of acres in a tract of land with 389,767 square feet.
+Hint: Divide the size of the tract of land by the size of an acre to get the number of acres.
+ */
+public class pc7 {
+    public static void main(String[] args)
+    {
+        double land = 389767;
+        double oneAcre = 43560;
+        System.out.println("The number of acres with "+ land +" square feet is "+ oneAcre + " square feet.");
+    }
+    
+}
